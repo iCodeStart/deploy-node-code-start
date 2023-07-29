@@ -1,0 +1,26 @@
+{
+  "name": "teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "dev": "tsx src/server.ts",
+    "build": "tsup src",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.31.0",
+    "@types/node": "^20.4.5",
+    "dotenv": "^16.3.1",
+    "fastify": "^4.21.0",
+    "tsup": "^7.1.0",
+    "tsx": "^3.12.7",
+    "typescript": "^5.1.6"
+  }
+}
